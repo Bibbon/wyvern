@@ -1,0 +1,3 @@
+Y:\coding\git\wyvern\Wyvern\Source\Wyvern\Wyvern.Build.cs
+Y:\coding\git\wyvern\Wyvern\Source\Wyvern.Target.cs
+Y:\coding\git\wyvern\Wyvern\Source\WyvernEditor.Target.cs
