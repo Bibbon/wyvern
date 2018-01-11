@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Wyvern.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{9F94C515-3DDB-4D2C-8C0E-04DB6613A278}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Wyvern.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\WyvernEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{0AA9CF4F-F55F-4D63-839E-C772F2960C07}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Wyvern">
+			<UniqueIdentifier>{B554B90E-FE5E-4791-825B-51A97AF6D2A5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Wyvern\Wyvern.Build.cs">
+			<Filter>Source\Wyvern</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Wyvern\Wyvern.cpp">
+			<Filter>Source\Wyvern</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Wyvern\Wyvern.h">
+			<Filter>Source\Wyvern</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Wyvern\WyvernCharacter.cpp">
+			<Filter>Source\Wyvern</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Wyvern\WyvernCharacter.h">
+			<Filter>Source\Wyvern</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Wyvern\WyvernGameMode.cpp">
+			<Filter>Source\Wyvern</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Wyvern\WyvernGameMode.h">
+			<Filter>Source\Wyvern</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Wyvern\WyvernPlayerController.cpp">
+			<Filter>Source\Wyvern</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Wyvern\WyvernPlayerController.h">
+			<Filter>Source\Wyvern</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

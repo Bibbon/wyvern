@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="DebugGame_Game|Win32">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Game|x64">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|Win32">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|x64">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Game|Win32">
+			<Configuration>IOS_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Game|x64">
+			<Configuration>IOS_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Editor|Win32">
+			<Configuration>IOS_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_DebugGame_Editor|x64">
+			<Configuration>IOS_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Game|Win32">
+			<Configuration>HTML5_DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Game|x64">
+			<Configuration>HTML5_DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Editor|Win32">
+			<Configuration>HTML5_DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_DebugGame_Editor|x64">
+			<Configuration>HTML5_DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|Win32">
+			<Configuration>Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|x64">
+			<Configuration>Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|Win32">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|x64">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Game|Win32">
+			<Configuration>IOS_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Game|x64">
+			<Configuration>IOS_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Editor|Win32">
+			<Configuration>IOS_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Development_Editor|x64">
+			<Configuration>IOS_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Game|Win32">
+			<Configuration>HTML5_Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Game|x64">
+			<Configuration>HTML5_Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Editor|Win32">
+			<Configuration>HTML5_Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Editor|x64">
+			<Configuration>HTML5_Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|Win32">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|x64">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Game|Win32">
+			<Configuration>IOS_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="IOS_Shipping_Game|x64">
+			<Configuration>IOS_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Shipping_Game|Win32">
+			<Configuration>HTML5_Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Shipping_Game|x64">
+			<Configuration>HTML5_Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{81E70867-1A28-45C3-ACCA-18125D8F54B7}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>Wyvern</RootNamespace>
+		<PlatformToolset>v141</PlatformToolset>
+		<MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+		<TargetRuntime>Native</TargetRuntime>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat Wyvern Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat Wyvern Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat Wyvern Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Wyvern-Win32-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'">
+		<OutDir>Y:\UE4\UE_4.18\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>Y:\UE4\UE_4.18\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo Win32 is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo Win32 is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo Win32 is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat Wyvern Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat Wyvern Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat Wyvern Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Wyvern-Win64-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat WyvernEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat WyvernEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat WyvernEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>Y:\UE4\UE_4.18\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat Wyvern IOS DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat Wyvern IOS DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat Wyvern IOS DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\Wyvern-IOS-DebugGame</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame_Editor|Win32'">
+		<OutDir>Y:\UE4\UE_4.18\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>Y:\UE4\UE_4.18\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo IOS is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo IOS is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo IOS is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat Wyvern HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat Wyvern HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat Wyvern HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\Wyvern-HTML5-DebugGame.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'">
+		<OutDir>Y:\UE4\UE_4.18\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>Y:\UE4\UE_4.18\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo HTML5 is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo HTML5 is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo HTML5 is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat Wyvern Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat Wyvern Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat Wyvern Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Wyvern.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'">
+		<OutDir>Y:\UE4\UE_4.18\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>Y:\UE4\UE_4.18\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo Win32 is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo Win32 is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo Win32 is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat Wyvern Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat Wyvern Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat Wyvern Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Wyvern.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat WyvernEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat WyvernEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat WyvernEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>Y:\UE4\UE_4.18\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat Wyvern IOS Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat Wyvern IOS Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat Wyvern IOS Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\Wyvern</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development_Editor|Win32'">
+		<OutDir>Y:\UE4\UE_4.18\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>Y:\UE4\UE_4.18\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo IOS is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo IOS is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo IOS is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat Wyvern HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat Wyvern HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat Wyvern HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\Wyvern.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'">
+		<OutDir>Y:\UE4\UE_4.18\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>Y:\UE4\UE_4.18\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo HTML5 is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo HTML5 is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo HTML5 is not a supported platform for WyvernEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat Wyvern Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat Wyvern Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat Wyvern Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Wyvern-Win32-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat Wyvern Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat Wyvern Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat Wyvern Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Wyvern-Win64-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat Wyvern IOS Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat Wyvern IOS Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat Wyvern IOS Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\IOS\Wyvern-IOS-Shipping</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Build.bat Wyvern HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Rebuild.bat Wyvern HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>Y:\UE4\UE_4.18\Engine\Build\BatchFiles\Clean.bat Wyvern HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\HTML5\Wyvern-HTML5-Shipping.js</NMakeOutput>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\Wyvern.uproject" />
+		<None Include="..\..\Source\Wyvern.Target.cs" />
+		<None Include="..\..\Source\WyvernEditor.Target.cs" />
+		<None Include="..\..\Config\DefaultEditor.ini" />
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini" />
+		<None Include="..\..\Config\DefaultEngine.ini" />
+		<None Include="..\..\Config\DefaultGame.ini" />
+		<None Include="..\..\Config\DefaultInput.ini" />
+		<None Include="..\..\Source\Wyvern\Wyvern.Build.cs" />
+		<ClCompile Include="..\..\Source\Wyvern\Wyvern.cpp" />
+		<ClInclude Include="..\..\Source\Wyvern\Wyvern.h" />
+		<ClCompile Include="..\..\Source\Wyvern\WyvernCharacter.cpp" />
+		<ClInclude Include="..\..\Source\Wyvern\WyvernCharacter.h" />
+		<ClCompile Include="..\..\Source\Wyvern\WyvernGameMode.cpp" />
+		<ClInclude Include="..\..\Source\Wyvern\WyvernGameMode.h" />
+		<ClCompile Include="..\..\Source\Wyvern\WyvernPlayerController.cpp" />
+		<ClInclude Include="..\..\Source\Wyvern\WyvernPlayerController.h" />
+	</ItemGroup>
+	<PropertyGroup>
+		<SourcePath>Y:\UE4\UE_4.18\Engine\Source\Developer\TreeMap;Y:\UE4\UE_4.18\Engine\Source\Developer\AITestSuite\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\AITestSuite\Private\Actions;Y:\UE4\UE_4.18\Engine\Source\Developer\AITestSuite\Private\BehaviorTree;Y:\UE4\UE_4.18\Engine\Source\Developer\AITestSuite\Private\MockAI;Y:\UE4\UE_4.18\Engine\Source\Developer\AITestSuite\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Developer\AllDesktopTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Android\AndroidDeviceDetection\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Android\AndroidPlatformEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Android\AndroidTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Android\Android_ASTCTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Android\Android_ATCTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Android\Android_DXTTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Android\Android_ETC1TargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Android\Android_ETC2TargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Android\Android_MultiTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Android\Android_PVRTCTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Apple\MetalShaderFormat\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\AssetTools\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\AssetTools\Private\AssetTypeActions;Y:\UE4\UE_4.18\Engine\Source\Developer\AudioFormatADPCM\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\AudioFormatOgg\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\AudioFormatOpus\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\AudioSettingsEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\AutomationController\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\AutomationDriver\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\AutomationDriver\Private\Locators;Y:\UE4\UE_4.18\Engine\Source\Developer\AutomationDriver\Private\Specs;Y:\UE4\UE_4.18\Engine\Source\Developer\AutomationWindow\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\BlankModule\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\BlueprintCompilerCppBackend\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\BlueprintNativeCodeGen\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\CollectionManager\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\CollisionAnalyzer\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\CrashDebugHelper\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\CrashDebugHelper\Private\IOS;Y:\UE4\UE_4.18\Engine\Source\Developer\CrashDebugHelper\Private\Linux;Y:\UE4\UE_4.18\Engine\Source\Developer\CrashDebugHelper\Private\Mac;Y:\UE4\UE_4.18\Engine\Source\Developer\CrashDebugHelper\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Developer\CrashReportHelper\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\CrashReportHelper\Private\IOS;Y:\UE4\UE_4.18\Engine\Source\Developer\CrashReportHelper\Private\Mac;Y:\UE4\UE_4.18\Engine\Source\Developer\CrashReportHelper\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Developer\DerivedDataCache\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\DesktopPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\DesktopPlatform\Private\Linux;Y:\UE4\UE_4.18\Engine\Source\Developer\DesktopPlatform\Private\Mac;Y:\UE4\UE_4.18\Engine\Source\Developer\DesktopPlatform\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Developer\DesktopWidgets\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\DesktopWidgets\Private\Widgets\Input;Y:\UE4\UE_4.18\Engine\Source\Developer\DeviceManager\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\DeviceManager\Private\Widgets;Y:\UE4\UE_4.18\Engine\Source\Developer\DeviceManager\Private\Widgets\Apps;Y:\UE4\UE_4.18\Engine\Source\Developer\DeviceManager\Private\Widgets\Browser;Y:\UE4\UE_4.18\Engine\Source\Developer\DeviceManager\Private\Widgets\Details;Y:\UE4\UE_4.18\Engine\Source\Developer\DeviceManager\Private\Widgets\Processes;Y:\UE4\UE_4.18\Engine\Source\Developer\DeviceManager\Private\Widgets\Toolbar;Y:\UE4\UE_4.18\Engine\Source\Developer\DirectoryWatcher\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\DirectoryWatcher\Private\Linux;Y:\UE4\UE_4.18\Engine\Source\Developer\DirectoryWatcher\Private\Mac;Y:\UE4\UE_4.18\Engine\Source\Developer\DirectoryWatcher\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Developer\DirectoryWatcher\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Developer\ExternalImagePicker\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\FunctionalTesting\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\FunctionalTesting\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Developer\GameplayDebugger\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\GameplayDebugger\Private\Editor;Y:\UE4\UE_4.18\Engine\Source\Developer\GammaUI\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\GraphColor\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\HierarchicalLODUtilities\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\HotReload\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\HTML5\HTML5PlatformEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\HTML5\HTML5TargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\IOS\IOSPlatformEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\IOS\IOSTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\IOS\IOSTargetPlatform\Private\Mac;Y:\UE4\UE_4.18\Engine\Source\Developer\IOS\IOSTargetPlatform\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Developer\IOS\TVOSTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\LauncherServices\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\LauncherServices\Private\Launcher;Y:\UE4\UE_4.18\Engine\Source\Developer\LauncherServices\Private\Profiles;Y:\UE4\UE_4.18\Engine\Source\Developer\Linux\LinuxClientTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Linux\LinuxNoEditorTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Linux\LinuxPlatformEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Linux\LinuxServerTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Linux\LinuxTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Localization\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Localization\Private\Serialization;Y:\UE4\UE_4.18\Engine\Source\Developer\LocalizationService\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\LogVisualizer\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Mac\MacClientTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Mac\MacNoEditorTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Mac\MacPlatformEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Mac\MacServerTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Mac\MacTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\MaterialBaking\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\MaterialUtilities\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Merge\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\MeshBoneReduction\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\MeshMergeUtilities\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\MeshReductionInterface\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\MeshSimplifier\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\MeshUtilities\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\MessageLog\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\MessageLog\Private\Model;Y:\UE4\UE_4.18\Engine\Source\Developer\MessageLog\Private\Presentation;Y:\UE4\UE_4.18\Engine\Source\Developer\MessageLog\Private\UserInterface;Y:\UE4\UE_4.18\Engine\Source\Developer\ModuleUI\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\OutputLog\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Profiler\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Profiler\Private\Widgets;Y:\UE4\UE_4.18\Engine\Source\Developer\ProfilerClient\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\ProfilerMessages\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\ProfilerService\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private\Widgets;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Archive;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Build;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Cook;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Deploy;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Launch;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Package;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Preview;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Profile;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Progress;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Project;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Settings;Y:\UE4\UE_4.18\Engine\Source\Developer\ProjectLauncher\Private\Widgets\Shared;Y:\UE4\UE_4.18\Engine\Source\Developer\RawMesh\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\RealtimeProfiler\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\ScreenShotComparison\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\ScreenShotComparison\Private\Models;Y:\UE4\UE_4.18\Engine\Source\Developer\ScreenShotComparison\Private\Widgets;Y:\UE4\UE_4.18\Engine\Source\Developer\ScreenShotComparisonTools\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\SessionFrontend\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\SessionFrontend\Private\Widgets;Y:\UE4\UE_4.18\Engine\Source\Developer\SessionFrontend\Private\Widgets\Browser;Y:\UE4\UE_4.18\Engine\Source\Developer\SessionFrontend\Private\Widgets\Console;Y:\UE4\UE_4.18\Engine\Source\Developer\Settings\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\SettingsEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\SettingsEditor\Private\Widgets;Y:\UE4\UE_4.18\Engine\Source\Developer\ShaderCompilerCommon\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\ShaderFormatOpenGL\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\ShaderFormatVectorVM\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\ShaderPreprocessor\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\SharedSettingsWidgets\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\SimplygonMeshReduction\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\SimplygonSwarm\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\SlackIntegrations\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\SlateFileDialogs\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\SlateReflector\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\SlateReflector\Private\Models;Y:\UE4\UE_4.18\Engine\Source\Developer\SlateReflector\Private\Widgets;Y:\UE4\UE_4.18\Engine\Source\Developer\SourceCodeAccess\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\SourceControl\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\StandaloneRenderer\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\StandaloneRenderer\Private\ios;Y:\UE4\UE_4.18\Engine\Source\Developer\StandaloneRenderer\Private\OpenGL;Y:\UE4\UE_4.18\Engine\Source\Developer\StandaloneRenderer\Private\Linux\OpenGL;Y:\UE4\UE_4.18\Engine\Source\Developer\StandaloneRenderer\Private\Mac\OpenGL;Y:\UE4\UE_4.18\Engine\Source\Developer\StandaloneRenderer\Private\Windows\D3D;Y:\UE4\UE_4.18\Engine\Source\Developer\StandaloneRenderer\Private\Windows\OpenGL;Y:\UE4\UE_4.18\Engine\Source\Developer\TargetDeviceServices\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\TargetDeviceServices\Private\Proxies;Y:\UE4\UE_4.18\Engine\Source\Developer\TargetDeviceServices\Private\Services;Y:\UE4\UE_4.18\Engine\Source\Developer\TargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\TaskGraph\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\TextureCompressor\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\TextureFormatAndroid\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\TextureFormatASTC\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\TextureFormatDXT\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\TextureFormatIntelISPCTexComp\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\TextureFormatPVR\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\TextureFormatUncompressed\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\VulkanShaderFormat\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Windows\ShaderFormatD3D\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Windows\WindowsClientTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Windows\WindowsNoEditorTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Windows\WindowsPlatformEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Windows\WindowsServerTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\Windows\WindowsTargetPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Developer\XGEController\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\SizeMap;Y:\UE4\UE_4.18\Engine\Source\Editor\UATHelper;Y:\UE4\UE_4.18\Engine\Source\Editor\ViewportInteraction;Y:\UE4\UE_4.18\Engine\Source\Editor\VREditor;Y:\UE4\UE_4.18\Engine\Source\Editor\ActorPickerMode\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\AddContentDialog\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\AddContentDialog\Private\ViewModels;Y:\UE4\UE_4.18\Engine\Source\Editor\AddContentDialog\Private\ContentSourceProviders\FeaturePack;Y:\UE4\UE_4.18\Engine\Source\Editor\AdvancedPreviewScene\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\AIGraph\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\AnimationBlueprintEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\AnimationBlueprintEditor\Private\AnimationNodes;Y:\UE4\UE_4.18\Engine\Source\Editor\AnimationBlueprintEditor\Private\AnimationPins;Y:\UE4\UE_4.18\Engine\Source\Editor\AnimationBlueprintEditor\Private\AnimationStateNodes;Y:\UE4\UE_4.18\Engine\Source\Editor\AnimationEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\AnimationModifiers\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\AnimGraph\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\AnimGraph\Private\EditModes;Y:\UE4\UE_4.18\Engine\Source\Editor\AudioEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\AudioEditor\Private\AssetTypeActions;Y:\UE4\UE_4.18\Engine\Source\Editor\AudioEditor\Private\Factories;Y:\UE4\UE_4.18\Engine\Source\Editor\BehaviorTreeEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\BehaviorTreeEditor\Private\DetailCustomizations;Y:\UE4\UE_4.18\Engine\Source\Editor\BlueprintGraph\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\Blutility\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\BspMode\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\Cascade\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\Cascade\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Editor\ClassViewer\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\ClothingSystemEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\ClothingSystemEditorInterface\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\ClothPainter\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\ComponentVisualizers\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\ConfigEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\ConfigEditor\Private\PropertyVisualization;Y:\UE4\UE_4.18\Engine\Source\Editor\ContentBrowser\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\CurveAssetEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\CurveTableEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\DataTableEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\DetailCustomizations\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\DeviceProfileEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\DeviceProfileEditor\Private\DetailsPanel;Y:\UE4\UE_4.18\Engine\Source\Editor\DeviceProfileServices\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\DistCurveEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\Documentation\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\EditorSettingsViewer\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\EditorStyle\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\EditorWidgets\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\EnvironmentQueryEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\EnvironmentQueryEditor\Private\DetailCustomizations;Y:\UE4\UE_4.18\Engine\Source\Editor\FoliageEdit\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\FontEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\GameplayTasksEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\GameProjectGeneration\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\GameProjectGeneration\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Editor\GeometryCacheEd\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\GeometryMode\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\GraphEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\GraphEditor\Private\KismetNodes;Y:\UE4\UE_4.18\Engine\Source\Editor\GraphEditor\Private\KismetPins;Y:\UE4\UE_4.18\Engine\Source\Editor\GraphEditor\Private\MaterialNodes;Y:\UE4\UE_4.18\Engine\Source\Editor\GraphEditor\Private\MaterialPins;Y:\UE4\UE_4.18\Engine\Source\Editor\GraphEditor\Private\NiagaraPins;Y:\UE4\UE_4.18\Engine\Source\Editor\HardwareTargeting\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\HierarchicalLODOutliner\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\InputBindingEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\InputBindingEditor\Private\Widgets;Y:\UE4\UE_4.18\Engine\Source\Editor\InternationalizationSettings\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\IntroTutorials\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\Kismet\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\Kismet\Private\Debugging;Y:\UE4\UE_4.18\Engine\Source\Editor\Kismet\Private\Nodes;Y:\UE4\UE_4.18\Engine\Source\Editor\Kismet\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Editor\Kismet\Private\WorkflowOrientedApp;Y:\UE4\UE_4.18\Engine\Source\Editor\KismetCompiler\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\KismetWidgets\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\LandscapeEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\LandscapeEditor\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Editor\Layers\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\LevelEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\LocalizationCommandletExecution\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\LocalizationDashboard\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\MainFrame\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\MainFrame\Private\Frame;Y:\UE4\UE_4.18\Engine\Source\Editor\MainFrame\Private\Menus;Y:\UE4\UE_4.18\Engine\Source\Editor\MaterialEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\MaterialEditor\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Editor\Matinee\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\MergeActors\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\MergeActors\Private\MeshMergingTool;Y:\UE4\UE_4.18\Engine\Source\Editor\MergeActors\Private\MeshProxyTool;Y:\UE4\UE_4.18\Engine\Source\Editor\MeshPaint\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\MeshPaintMode\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\MovieSceneCaptureDialog\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\MovieSceneTools\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\MovieSceneTools\Private\CurveKeyAreas;Y:\UE4\UE_4.18\Engine\Source\Editor\MovieSceneTools\Private\CurveKeyEditors;Y:\UE4\UE_4.18\Engine\Source\Editor\MovieSceneTools\Private\Sections;Y:\UE4\UE_4.18\Engine\Source\Editor\MovieSceneTools\Private\TrackEditors;Y:\UE4\UE_4.18\Engine\Source\Editor\MovieSceneTools\Private\TrackEditorThumbnail;Y:\UE4\UE_4.18\Engine\Source\Editor\MovieSceneTools\Private\TrackEditors\PropertyTrackEditors;Y:\UE4\UE_4.18\Engine\Source\Editor\NewLevelDialog\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\OverlayEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\OverlayEditor\Private\Factories;Y:\UE4\UE_4.18\Engine\Source\Editor\PackagesDialog\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\Persona\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\Persona\Public;Y:\UE4\UE_4.18\Engine\Source\Editor\Persona\Private\Customization;Y:\UE4\UE_4.18\Engine\Source\Editor\Persona\Private\EditModes;Y:\UE4\UE_4.18\Engine\Source\Editor\Persona\Private\Shared;Y:\UE4\UE_4.18\Engine\Source\Editor\PhysicsAssetEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\PhysicsAssetEditor\Private\PhysicsAssetGraph;Y:\UE4\UE_4.18\Engine\Source\Editor\PIEPreviewDeviceProfileSelector\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\PixelInspector\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\PlacementMode\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\PListEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\PluginWarden\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\ProjectSettingsViewer\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\ProjectTargetPlatformEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\ProjectTargetPlatformEditor\Private\Widgets;Y:\UE4\UE_4.18\Engine\Source\Editor\PropertyEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\PropertyEditor\Private\Presentation\PropertyEditor;Y:\UE4\UE_4.18\Engine\Source\Editor\PropertyEditor\Private\Presentation\PropertyTable;Y:\UE4\UE_4.18\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyDetails;Y:\UE4\UE_4.18\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyEditor;Y:\UE4\UE_4.18\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyTable;Y:\UE4\UE_4.18\Engine\Source\Editor\ReferenceViewer\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\SceneDepthPickerMode\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\SceneOutliner\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\Sequencer\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\Sequencer\Private\DisplayNodes;Y:\UE4\UE_4.18\Engine\Source\Editor\Sequencer\Private\Tools;Y:\UE4\UE_4.18\Engine\Source\Editor\SequenceRecorder\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\SequenceRecorder\Private\Sections;Y:\UE4\UE_4.18\Engine\Source\Editor\SequenceRecorderSections\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\SequencerWidgets\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\SkeletalMeshEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\SkeletonEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\SourceControlWindows\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\StaticMeshEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\StatsViewer\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\StatsViewer\Private\StatsEntries;Y:\UE4\UE_4.18\Engine\Source\Editor\StatsViewer\Private\StatsPages;Y:\UE4\UE_4.18\Engine\Source\Editor\StringTableEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\SwarmInterface\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\TextureAlignMode\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\TextureEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\TextureEditor\Private\Customizations;Y:\UE4\UE_4.18\Engine\Source\Editor\TextureEditor\Private\Models;Y:\UE4\UE_4.18\Engine\Source\Editor\TextureEditor\Private\Widgets;Y:\UE4\UE_4.18\Engine\Source\Editor\TranslationEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\Animation;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\BlueprintModes;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\Customizations;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\Designer;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\Details;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\DragDrop;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\Extensions;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\Hierarchy;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\Nodes;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\Palette;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\Settings;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\TabFactory;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\Templates;Y:\UE4\UE_4.18\Engine\Source\Editor\UMGEditor\Private\Utility;Y:\UE4\UE_4.18\Engine\Source\Editor\UndoHistory\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\UndoHistory\Private\Widgets;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Analytics;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Animation;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\AutoReimport;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Commandlets;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Dialogs;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\DragAndDrop;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Editor;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Factories;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Fbx;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Features;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Kismet2;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Layers;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Lightmass;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\MaterialEditor;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Settings;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\StaticLightingSystem;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\ThumbnailRendering;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Private\Toolkits;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEdMessages\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\ViewportInteraction\Gizmo;Y:\UE4\UE_4.18\Engine\Source\Editor\ViewportSnapping\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\VREditor\Teleporter;Y:\UE4\UE_4.18\Engine\Source\Editor\VREditor\UI;Y:\UE4\UE_4.18\Engine\Source\Editor\WorkspaceMenuStructure\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\WorldBrowser\Private;Y:\UE4\UE_4.18\Engine\Source\Editor\WorldBrowser\Private\StreamingLevels;Y:\UE4\UE_4.18\Engine\Source\Editor\WorldBrowser\Private\Tiles;Y:\UE4\UE_4.18\Engine\Source\Programs\UnrealHeaderTool\Private;Y:\UE4\UE_4.18\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers;Y:\UE4\UE_4.18\Engine\Source\Runtime\Advertising\Advertising\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Advertising\Android\AndroidAdvertising\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Advertising\IOS\IOSAdvertising\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\Actions;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\BehaviorTree;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\Blueprint;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\DataProviders;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\GameplayDebugger;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\HotSpots;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\Navigation;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\Perception;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\Tasks;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Blackboard;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Composites;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Decorators;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Services;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\BehaviorTree\Tasks;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Contexts;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Generators;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Items;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Private\EnvironmentQuery\Tests;Y:\UE4\UE_4.18\Engine\Source\Runtime\ALAudio\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Analytics\Analytics\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Analytics\AnalyticsET\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Analytics\AnalyticsSwrve\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Analytics\AnalyticsVisualEditing\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Analytics\QoSReporter\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Android\AndroidAudio\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Android\AndroidLocalNotification\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Android\AndroidRuntimeSettings\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Android\AudioMixerAndroid\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\AnimationCore\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\AnimGraphRuntime\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\AnimGraphRuntime\Private\AnimNodes;Y:\UE4\UE_4.18\Engine\Source\Runtime\AnimGraphRuntime\Private\BoneControllers;Y:\UE4\UE_4.18\Engine\Source\Runtime\AnimGraphRuntime\Private\RBF;Y:\UE4\UE_4.18\Engine\Source\Runtime\AnimGraphRuntime\Public\BoneControllers;Y:\UE4\UE_4.18\Engine\Source\Runtime\AppFramework\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\AppFramework\Private\Framework\Testing;Y:\UE4\UE_4.18\Engine\Source\Runtime\AppFramework\Private\Widgets\Colors;Y:\UE4\UE_4.18\Engine\Source\Runtime\AppFramework\Private\Widgets\Testing;Y:\UE4\UE_4.18\Engine\Source\Runtime\AppFramework\Private\Widgets\Workflow;Y:\UE4\UE_4.18\Engine\Source\Runtime\Apple\AudioMixerAudioUnit\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Apple\MetalRHI\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\ApplicationCore\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\ApplicationCore\Private\Android;Y:\UE4\UE_4.18\Engine\Source\Runtime\ApplicationCore\Private\GenericPlatform;Y:\UE4\UE_4.18\Engine\Source\Runtime\ApplicationCore\Private\HTML5;Y:\UE4\UE_4.18\Engine\Source\Runtime\ApplicationCore\Private\IOS;Y:\UE4\UE_4.18\Engine\Source\Runtime\ApplicationCore\Private\Linux;Y:\UE4\UE_4.18\Engine\Source\Runtime\ApplicationCore\Private\Mac;Y:\UE4\UE_4.18\Engine\Source\Runtime\ApplicationCore\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\AssetRegistry\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\AudioMixer\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\AudioMixer\Private\Components;Y:\UE4\UE_4.18\Engine\Source\Runtime\AudioMixer\Private\DSP;Y:\UE4\UE_4.18\Engine\Source\Runtime\AudioMixer\Private\Effects;Y:\UE4\UE_4.18\Engine\Source\Runtime\AugmentedReality\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\AutomationMessages\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\AutomationWorker\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\AVIWriter\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\BlueprintRuntime\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\CEF3Utils\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\CEF3Utils\Private\Mac;Y:\UE4\UE_4.18\Engine\Source\Runtime\CinematicCamera\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\ClothingSystemRuntime\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\ClothingSystemRuntime\Private\Assets;Y:\UE4\UE_4.18\Engine\Source\Runtime\ClothingSystemRuntime\Private\Utils;Y:\UE4\UE_4.18\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\CookedIterativeFile\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Android;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Apple;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Async;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Containers;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Delegates;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Features;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\GenericPlatform;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\HAL;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\HTML5;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Internationalization;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\IOS;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Linux;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Logging;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Mac;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Math;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Misc;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Modules;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\ProfilingDebugging;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Serialization;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Stats;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\UObject;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Containers\Algo;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\HAL\Allocators;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\ProfilingDebugging\Apple;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\ProfilingDebugging\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Serialization\Csv;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Tests\Async;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Tests\HAL;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Tests\Internationalization;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Tests\Math;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Private\Tests\Misc;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Private\Blueprint;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Private\Internationalization;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Private\Misc;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Private\Serialization;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Private\Templates;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Private\UObject;Y:\UE4\UE_4.18\Engine\Source\Runtime\D3D12RHI\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\D3D12RHI\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\DatabaseSupport\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\EmptyRHI\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\AI;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Animation;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Atmosphere;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Camera;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Collision;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Commandlets;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Components;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Curves;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Debug;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\DeviceProfiles;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\EdGraph;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\EditorFramework;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Engine;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\GameFramework;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Internationalization;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Kismet;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Layers;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Materials;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\MeshVertexPainter;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\PacketHandlers;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Particles;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Performance;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\PhysicsEngine;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\ProfilingDebugging;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Rendering;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\ShaderCompiler;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Slate;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Streaming;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\UserInterface;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Vehicles;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\VisualLogger;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\AI\Navigation;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\AI\Navigation\NavAreas;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\AI\Navigation\NavFilters;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Private\Tests\Internationalization;Y:\UE4\UE_4.18\Engine\Source\Runtime\EngineMessages\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\EngineSettings\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Foliage\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\FriendsAndChat\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\GameMenuBuilder\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\GameplayTags\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\GameplayTags\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Runtime\GameplayTasks\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\GameplayTasks\Private\Tasks;Y:\UE4\UE_4.18\Engine\Source\Runtime\GeometryCache\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\HardwareSurvey\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\HeadMountedDisplay\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\HTML5\HTML5JS\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\HTML5\HTML5PlatformFeatures\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\HTML5\MapPakDownloader\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\HTML5\Simulator\HTML5Win32\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\ImageCore\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\ImageWrapper\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\ImageWrapper\Private\Formats;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore\Private\Android;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore\Private\GenericPlatform;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore\Private\HTML5;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore\Private\IOS;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore\Private\Linux;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore\Private\Mac;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputDevice\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\IOS\IOSAudio\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\IOS\IOSLocalNotification\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\IOS\IOSRuntimeSettings\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\IOS\LaunchDaemonMessages\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\IPC\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Json\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Json\Private\Dom;Y:\UE4\UE_4.18\Engine\Source\Runtime\Json\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Runtime\JsonUtilities\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Landscape\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Landscape\Private\Materials;Y:\UE4\UE_4.18\Engine\Source\Runtime\Launch\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Launch\Private\Android;Y:\UE4\UE_4.18\Engine\Source\Runtime\Launch\Private\HTML5;Y:\UE4\UE_4.18\Engine\Source\Runtime\Launch\Private\IOS;Y:\UE4\UE_4.18\Engine\Source\Runtime\Launch\Private\Linux;Y:\UE4\UE_4.18\Engine\Source\Runtime\Launch\Private\Mac;Y:\UE4\UE_4.18\Engine\Source\Runtime\Launch\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\LevelSequence\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Linux\AudioMixerSDL\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Linux\LinuxCommonStartup\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\LiveLinkInterface\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\LiveLinkMessageBusFramework\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Mac\CoreAudio\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Mac\UnrealAudioCoreAudio\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\MaterialShaderQualitySettings\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Media\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\MediaAssets\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\MediaAssets\Private\Assets;Y:\UE4\UE_4.18\Engine\Source\Runtime\MediaAssets\Private\Misc;Y:\UE4\UE_4.18\Engine\Source\Runtime\MediaAssets\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Runtime\MediaUtils\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Messaging\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Messaging\Private\Bridge;Y:\UE4\UE_4.18\Engine\Source\Runtime\Messaging\Private\Bus;Y:\UE4\UE_4.18\Engine\Source\Runtime\MessagingCommon\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\MessagingRpc\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\MoviePlayer\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieScene\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieScene\Private\Compilation;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieScene\Private\Evaluation;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieScene\Private\Generators;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieScene\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieScene\Private\Evaluation\Blending;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieSceneCapture\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Private\Evaluation;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Private\Sections;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Private\Tracks;Y:\UE4\UE_4.18\Engine\Source\Runtime\MRMesh\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\MRMesh\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\Navmesh\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Navmesh\Private\DebugUtils;Y:\UE4\UE_4.18\Engine\Source\Runtime\Navmesh\Private\Detour;Y:\UE4\UE_4.18\Engine\Source\Runtime\Navmesh\Private\DetourCrowd;Y:\UE4\UE_4.18\Engine\Source\Runtime\Navmesh\Private\DetourTileCache;Y:\UE4\UE_4.18\Engine\Source\Runtime\Navmesh\Private\Recast;Y:\UE4\UE_4.18\Engine\Source\Runtime\NetworkFile\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\NetworkFileSystem\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Networking\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Networking\Private\IPv4;Y:\UE4\UE_4.18\Engine\Source\Runtime\Networking\Private\Steam;Y:\UE4\UE_4.18\Engine\Source\Runtime\Networking\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Runtime\NetworkReplayStreaming\HttpNetworkReplayStreaming\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\NetworkReplayStreaming\InMemoryNetworkReplayStreaming\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\NetworkReplayStreaming\NullNetworkReplayStreaming\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\NullDrv\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\BuildPatchServices\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\BuildPatchServices\Private\Common;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\BuildPatchServices\Private\Core;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\BuildPatchServices\Private\Data;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\BuildPatchServices\Private\Generation;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\BuildPatchServices\Private\Installer;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\BuildPatchServices\Private\Tests\Unit;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\HTTP\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\HTTP\Private\Android;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\HTTP\Private\Apple;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\HTTP\Private\Curl;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\HTTP\Private\GenericPlatform;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\HTTP\Private\HTML5;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\HTTP\Private\Linux;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\HTTP\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\ICMP\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\ICMP\Private\IOS;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\ICMP\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\ImageDownload\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\SSL\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\Stomp\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\Voice\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\Voice\Private\Android;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\Voice\Private\Linux;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\Voice\Private\Mac;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\Voice\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\WebSockets\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\WebSockets\Private\Lws;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\XMPP\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\XMPP\Private\XmppJingle;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\XMPP\Private\XmppStrophe;Y:\UE4\UE_4.18\Engine\Source\Runtime\OpenGLDrv\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\OpenGLDrv\Private\Android;Y:\UE4\UE_4.18\Engine\Source\Runtime\OpenGLDrv\Private\HTML5;Y:\UE4\UE_4.18\Engine\Source\Runtime\OpenGLDrv\Private\IOS;Y:\UE4\UE_4.18\Engine\Source\Runtime\OpenGLDrv\Private\Linux;Y:\UE4\UE_4.18\Engine\Source\Runtime\OpenGLDrv\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\Overlay\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Overlay\Private\Assets;Y:\UE4\UE_4.18\Engine\Source\Runtime\Overlay\Private\Factories;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\AsymmetricEncryption\RSAEncryptionHandlerComponent\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\EncryptionHandlerComponent\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\RSAKeyAESEncryption\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\AESBlockEncryptor\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\BlockEncryptionHandlerComponent\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\BlowFishBlockEncryptor\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\TwoFishBlockEncryptor\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\BlockEncryption\XORBlockEncryptor\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\StreamEncryption\StreamEncryptionHandlerComponent\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\EncryptionComponents\SymmetricEncryption\StreamEncryption\XORStreamEncryptor\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\PacketHandler\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PakFile\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PerfCounters\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\PhysXCooking\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Portal\LauncherCheck\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Portal\LauncherPlatform\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Portal\LauncherPlatform\Private\Linux;Y:\UE4\UE_4.18\Engine\Source\Runtime\Portal\LauncherPlatform\Private\Mac;Y:\UE4\UE_4.18\Engine\Source\Runtime\Portal\LauncherPlatform\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\Portal\Messages\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Portal\Proxies\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Portal\Proxies\Private\Account;Y:\UE4\UE_4.18\Engine\Source\Runtime\Portal\Proxies\Private\Application;Y:\UE4\UE_4.18\Engine\Source\Runtime\Portal\Rpc\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Portal\Services\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Projects\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\RenderCore\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Renderer\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Renderer\Private\CompositionLighting;Y:\UE4\UE_4.18\Engine\Source\Runtime\Renderer\Private\PostProcess;Y:\UE4\UE_4.18\Engine\Source\Runtime\Renderer\Private\VT;Y:\UE4\UE_4.18\Engine\Source\Runtime\RHI\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\RHI\Private\Android;Y:\UE4\UE_4.18\Engine\Source\Runtime\RHI\Private\Apple;Y:\UE4\UE_4.18\Engine\Source\Runtime\RHI\Private\HTML5;Y:\UE4\UE_4.18\Engine\Source\Runtime\RHI\Private\Linux;Y:\UE4\UE_4.18\Engine\Source\Runtime\RHI\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\RuntimeAssetCache\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\SandboxFile\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Serialization\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Serialization\Private\Backends;Y:\UE4\UE_4.18\Engine\Source\Runtime\Serialization\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Runtime\SessionMessages\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\SessionServices\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\ShaderCore\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Widgets;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Framework\Application;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Framework\Commands;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Framework\Docking;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Framework\Layout;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Framework\MetaData;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Framework\MultiBox;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Framework\Notifications;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Framework\Styling;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Framework\Text;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Framework\MultiBox\Mac;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Framework\Text\Android;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Framework\Text\IOS;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Widgets\Colors;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Widgets\Docking;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Widgets\Images;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Widgets\Input;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Widgets\LayerManager;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Widgets\Layout;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Widgets\Notifications;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Widgets\Text;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Private\Widgets\Views;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Animation;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Application;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Brushes;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Fonts;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Input;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Layout;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Logging;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Rendering;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Sound;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Stats;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Styling;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Textures;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Types;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Private\Widgets;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateNullRenderer\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateRHIRenderer\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Sockets\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Sockets\Private\Android;Y:\UE4\UE_4.18\Engine\Source\Runtime\Sockets\Private\BSDIPv6Sockets;Y:\UE4\UE_4.18\Engine\Source\Runtime\Sockets\Private\BSDSockets;Y:\UE4\UE_4.18\Engine\Source\Runtime\Sockets\Private\IOS;Y:\UE4\UE_4.18\Engine\Source\Runtime\Sockets\Private\Linux;Y:\UE4\UE_4.18\Engine\Source\Runtime\Sockets\Private\Mac;Y:\UE4\UE_4.18\Engine\Source\Runtime\Sockets\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\Sockets\Private\HTML5\Device;Y:\UE4\UE_4.18\Engine\Source\Runtime\Sockets\Private\HTML5\Simulator;Y:\UE4\UE_4.18\Engine\Source\Runtime\StreamingFile\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\StreamingPauseRendering\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\SynthBenchmark\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Toolbox\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\UE4Game\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\UMG\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\UMG\Private\Animation;Y:\UE4\UE_4.18\Engine\Source\Runtime\UMG\Private\Binding;Y:\UE4\UE_4.18\Engine\Source\Runtime\UMG\Private\Blueprint;Y:\UE4\UE_4.18\Engine\Source\Runtime\UMG\Private\Components;Y:\UE4\UE_4.18\Engine\Source\Runtime\UMG\Private\Slate;Y:\UE4\UE_4.18\Engine\Source\Runtime\UnrealAudio\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\UnrealAudio\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Runtime\UtilityShaders\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\VectorVM\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\VectorVM\Private\Tests;Y:\UE4\UE_4.18\Engine\Source\Runtime\VulkanRHI\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\WebBrowser\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\WebBrowser\Private\Android;Y:\UE4\UE_4.18\Engine\Source\Runtime\WebBrowser\Private\CEF;Y:\UE4\UE_4.18\Engine\Source\Runtime\WebBrowser\Private\IOS;Y:\UE4\UE_4.18\Engine\Source\Runtime\WidgetCarousel\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Windows\AudioMixerXAudio2\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Windows\D3D11RHI\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Windows\D3D11RHI\Private\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\Windows\UnrealAudioWasapi\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Windows\UnrealAudioXAudio2\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\Windows\XAudio2\Private;Y:\UE4\UE_4.18\Engine\Source\Runtime\XmlParser\Private;Y:\UE4\UE_4.18\Engine\Source\ThirdParty\libJPG;</SourcePath>
+	</PropertyGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=0;UE_EDITOR=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=1;WITH_UNREAL_DEVELOPER_TOOLS=1;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=1;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=0;WITH_EDITOR=1;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_XGE_CONTROLLER=1;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Editor;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UE4Editor-Wyvern.dll";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;UE_PROJECT_NAME=Wyvern;DEPRECATED_FORGAME=DEPRECATED;WYVERN_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;WITH_PHYSX=1;WITH_APEX=1;WITH_APEX_CLOTHING=1;WITH_CLOTH_COLLISION_DETECTION=1;WITH_PHYSX_COOKING=1;WITH_NVCLOTH=1;WITH_RECAST=1;ENGINE_API=;APPLICATIONCORE_API=;RHI_API=;JSON_API=;SLATE_DEFERRED_DESIRED_SIZE=0;WITH_FREETYPE=1;SLATECORE_API=;INPUTCORE_API=;SLATE_API=;WITH_UNREALPNG=1;WITH_UNREALJPEG=1;WITH_UNREALEXR=1;IMAGEWRAPPER_API=;MESSAGINGCOMMON_API=;MESSAGING_API=;RENDERCORE_API=;SHADERCORE_API=;UTILITYSHADERS_API=;ASSETREGISTRY_API=;ENGINEMESSAGES_API=;ENGINESETTINGS_API=;SYNTHBENCHMARK_API=;RENDERER_API=;GAMEPLAYTAGS_API=;WITH_GAMEPLAY_DEBUGGER=1;AIMODULE_API=;GAMEPLAYTASKS_API=;DATABASESUPPORT_API=;PACKETHANDLER_API=;RELIABILITYHANDLERCOMPONENT_API=;HARDWARESURVEY_API=;UNREALED_API=;BSPMODE_API=;DIRECTORYWATCHER_API=;DOCUMENTATION_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=1;PROJECTS_API=;SANDBOXFILE_API=;EDITORSTYLE_API=;SOURCE_CONTROL_WITH_SLATE=1;SOURCECONTROL_API=;UNREALEDMESSAGES_API=;GAMEPLAYDEBUGGER_API=;BLUEPRINTGRAPH_API=;HTTP_PACKAGE=1;HTTP_API=;UNREALAUDIO_API=;FUNCTIONALTESTING_API=;AUTOMATIONCONTROLLER_API=;LOCALIZATION_API=;AUDIOEDITOR_API=;LEVELEDITOR_API=;SETTINGS_API=;INTROTUTORIALS_API=;HEADMOUNTEDDISPLAY_API=;VREDITOR_API=;LANDSCAPE_API=;PROPERTYEDITOR_API=;ACTORPICKERMODE_API=;SCENEDEPTHPICKERMODE_API=;DETAILCUSTOMIZATIONS_API=;CLASSVIEWER_API=;GRAPHEDITOR_API=;CONTENTBROWSER_API=;ENABLE_HTTP_FOR_NFS=1;NETWORKFILESYSTEM_API=;SOCKETS_PACKAGE=1;SOCKETS_API=;UMG_API=;MOVIESCENE_API=;MOVIESCENETRACKS_API=;WITH_OGGVORBIS=1;XAUDIO2_API=;AUDIOMIXERXAUDIO2_API=;COLLECTIONMANAGER_API=;ADDCONTENTDIALOG_API=;USE_EMBREE=1;MESHUTILITIES_API=;MESHMERGEUTILITIES_API=;HIERARCHICALLODUTILITIES_API=;MESHREDUCTIONINTERFACE_API=;ASSETTOOLS_API=;KISMETCOMPILER_API=;KISMET_API=;CLOTHINGSYSTEMRUNTIMEINTERFACE_API=;NETWORKREPLAYSTREAMING_API=;AUDIOMIXER_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);Y:\UE4\UE_4.18\Engine\Source;..\..\Source;..\Build\Win64\UE4Editor\Inc\Wyvern;..\..\Source\Wyvern;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Internationalization;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Async;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Concurrency;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Containers;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Delegates;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\GenericPlatform;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\HAL;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Logging;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Math;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Misc;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Modules;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\ProfilingDebugging;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Serialization;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Serialization\Csv;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Stats;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Templates;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\UObject;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core\Public\Windows;Y:\UE4\UE_4.18\Engine\Source\Runtime\Core;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Blueprint;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Internationalization;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Misc;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Serialization;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Templates;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\UObject;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Classes;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\AI;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\AI\Navigation;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\Animation;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\Curves;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\EdGraph;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\Internationalization;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\Net;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\PacketHandlers;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\Performance;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\Physics;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\ProfilingDebugging;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\Rendering;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\Slate;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\Tests;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine\Public\VisualLogger;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;Y:\UE4\UE_4.18\Engine\Source\Runtime\Engine;Y:\UE4\UE_4.18\Engine\Source\Runtime\ApplicationCore\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;Y:\UE4\UE_4.18\Engine\Source\Runtime\ApplicationCore\Public\HAL;Y:\UE4\UE_4.18\Engine\Source\Runtime\ApplicationCore\Public\Windows;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ApplicationCore;Y:\UE4\UE_4.18\Engine\Source\Runtime\ApplicationCore;Y:\UE4\UE_4.18\Engine\Source\Runtime\RHI\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;Y:\UE4\UE_4.18\Engine\Source\Runtime\RHI;Y:\UE4\UE_4.18\Engine\Source\Runtime\Json\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\Json\Public\Dom;Y:\UE4\UE_4.18\Engine\Source\Runtime\Json\Public\Policies;Y:\UE4\UE_4.18\Engine\Source\Runtime\Json\Public\Serialization;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;Y:\UE4\UE_4.18\Engine\Source\Runtime\Json;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Animation;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Application;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Brushes;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Fonts;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Input;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Layout;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Logging;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Rendering;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Sound;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Stats;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Styling;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Textures;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Types;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore\Public\Widgets;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;Y:\UE4\UE_4.18\Engine\Source\Runtime\SlateCore;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore\Classes;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore\Public\GenericPlatform;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore\Public\HAL;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore\Public\Windows;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;Y:\UE4\UE_4.18\Engine\Source\Runtime\InputCore;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Application;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Commands;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Docking;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Layout;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\MetaData;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Notifications;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Styling;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Text;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Framework\Views;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Colors;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Docking;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Images;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Input;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Layout;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Text;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate\Public\Widgets\Views;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;Y:\UE4\UE_4.18\Engine\Source\Runtime\Slate;Y:\UE4\UE_4.18\Engine\Source\Runtime\ImageWrapper\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper;Y:\UE4\UE_4.18\Engine\Source\Runtime\ImageWrapper;Y:\UE4\UE_4.18\Engine\Source\Runtime\MessagingCommon\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MessagingCommon;Y:\UE4\UE_4.18\Engine\Source\Runtime\MessagingCommon;Y:\UE4\UE_4.18\Engine\Source\Runtime\Messaging\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;Y:\UE4\UE_4.18\Engine\Source\Runtime\Messaging;Y:\UE4\UE_4.18\Engine\Source\Runtime\RenderCore\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;Y:\UE4\UE_4.18\Engine\Source\Runtime\RenderCore;Y:\UE4\UE_4.18\Engine\Source\Runtime\ShaderCore\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ShaderCore;Y:\UE4\UE_4.18\Engine\Source\Runtime\ShaderCore;Y:\UE4\UE_4.18\Engine\Source\Runtime\UtilityShaders\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UtilityShaders;Y:\UE4\UE_4.18\Engine\Source\Runtime\UtilityShaders;Y:\UE4\UE_4.18\Engine\Source\Runtime\AssetRegistry\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;Y:\UE4\UE_4.18\Engine\Source\Runtime\AssetRegistry;Y:\UE4\UE_4.18\Engine\Source\Runtime\EngineMessages\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;Y:\UE4\UE_4.18\Engine\Source\Runtime\EngineMessages;Y:\UE4\UE_4.18\Engine\Source\Runtime\EngineSettings\Classes;Y:\UE4\UE_4.18\Engine\Source\Runtime\EngineSettings\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;Y:\UE4\UE_4.18\Engine\Source\Runtime\EngineSettings;Y:\UE4\UE_4.18\Engine\Source\Runtime\SynthBenchmark\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;Y:\UE4\UE_4.18\Engine\Source\Runtime\SynthBenchmark;Y:\UE4\UE_4.18\Engine\Source\Runtime\Renderer\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;Y:\UE4\UE_4.18\Engine\Source\Runtime\Renderer;Y:\UE4\UE_4.18\Engine\Source\Runtime\GameplayTags\Classes;Y:\UE4\UE_4.18\Engine\Source\Runtime\GameplayTags\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;Y:\UE4\UE_4.18\Engine\Source\Runtime\GameplayTags;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule\Classes;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;Y:\UE4\UE_4.18\Engine\Source\Runtime\AIModule;Y:\UE4\UE_4.18\Engine\Source\Runtime\GameplayTasks\Classes;Y:\UE4\UE_4.18\Engine\Source\Runtime\GameplayTasks\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;Y:\UE4\UE_4.18\Engine\Source\Runtime\GameplayTasks;Y:\UE4\UE_4.18\Engine\Source\Runtime\DatabaseSupport\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DatabaseSupport;Y:\UE4\UE_4.18\Engine\Source\Runtime\DatabaseSupport;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\PacketHandler;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ReliabilityHandlerComponent;Y:\UE4\UE_4.18\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent;Y:\UE4\UE_4.18\Engine\Source\Runtime\HardwareSurvey\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HardwareSurvey;Y:\UE4\UE_4.18\Engine\Source\Runtime\HardwareSurvey;Y:\UE4\UE_4.18\Engine\Source\Programs\UnrealLightmass\Public;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Classes;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Public;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Public\AutoReimport;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Commandlets;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Dialogs;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Features;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Kismet2;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Layers;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Settings;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Tests;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd\Public\Toolkits;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEd;Y:\UE4\UE_4.18\Engine\Source\Editor\BspMode\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BspMode;Y:\UE4\UE_4.18\Engine\Source\Editor\BspMode;Y:\UE4\UE_4.18\Engine\Source\Developer\DirectoryWatcher\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;Y:\UE4\UE_4.18\Engine\Source\Developer\DirectoryWatcher;Y:\UE4\UE_4.18\Engine\Source\Editor\Documentation\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;Y:\UE4\UE_4.18\Engine\Source\Editor\Documentation;Y:\UE4\UE_4.18\Engine\Source\Runtime\Projects\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\Projects\Public\Interfaces;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;Y:\UE4\UE_4.18\Engine\Source\Runtime\Projects;Y:\UE4\UE_4.18\Engine\Source\Runtime\SandboxFile\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;Y:\UE4\UE_4.18\Engine\Source\Runtime\SandboxFile;Y:\UE4\UE_4.18\Engine\Source\Editor\EditorStyle\Public;Y:\UE4\UE_4.18\Engine\Source\Editor\EditorStyle\Public\Classes;Y:\UE4\UE_4.18\Engine\Source\Editor\EditorStyle\Public\Interfaces;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;Y:\UE4\UE_4.18\Engine\Source\Editor\EditorStyle;Y:\UE4\UE_4.18\Engine\Source\Developer\SourceControl\Public;Y:\UE4\UE_4.18\Engine\Source\Developer\SourceControl\Public\Tests;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;Y:\UE4\UE_4.18\Engine\Source\Developer\SourceControl;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEdMessages\Classes;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEdMessages\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;Y:\UE4\UE_4.18\Engine\Source\Editor\UnrealEdMessages;Y:\UE4\UE_4.18\Engine\Source\Developer\GameplayDebugger\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger;Y:\UE4\UE_4.18\Engine\Source\Developer\GameplayDebugger;Y:\UE4\UE_4.18\Engine\Source\Editor\BlueprintGraph\Classes;Y:\UE4\UE_4.18\Engine\Source\Editor\BlueprintGraph\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;Y:\UE4\UE_4.18\Engine\Source\Editor\BlueprintGraph;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\HTTP\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\HTTP\Public\Windows;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;Y:\UE4\UE_4.18\Engine\Source\Runtime\Online\HTTP;Y:\UE4\UE_4.18\Engine\Source\Runtime\UnrealAudio\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;Y:\UE4\UE_4.18\Engine\Source\Runtime\UnrealAudio;Y:\UE4\UE_4.18\Engine\Source\Developer\FunctionalTesting\Classes;Y:\UE4\UE_4.18\Engine\Source\Developer\FunctionalTesting\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting;Y:\UE4\UE_4.18\Engine\Source\Developer\FunctionalTesting;Y:\UE4\UE_4.18\Engine\Source\Developer\AutomationController\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AutomationController;Y:\UE4\UE_4.18\Engine\Source\Developer\AutomationController;Y:\UE4\UE_4.18\Engine\Source\Developer\Localization\Public;Y:\UE4\UE_4.18\Engine\Source\Developer\Localization\Public\Serialization;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Localization;Y:\UE4\UE_4.18\Engine\Source\Developer\Localization;Y:\UE4\UE_4.18\Engine\Source\Editor\AudioEditor\Classes;Y:\UE4\UE_4.18\Engine\Source\Editor\AudioEditor\Public;Y:\UE4\UE_4.18\Engine\Source\Editor\AudioEditor\Public\AssetTypeActions;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor;Y:\UE4\UE_4.18\Engine\Source\Editor\AudioEditor;Y:\UE4\UE_4.18\Engine\Source\Editor\LevelEditor\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;Y:\UE4\UE_4.18\Engine\Source\Editor\LevelEditor;Y:\UE4\UE_4.18\Engine\Source\Developer\Settings\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;Y:\UE4\UE_4.18\Engine\Source\Developer\Settings;Y:\UE4\UE_4.18\Engine\Source\Editor\IntroTutorials\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;Y:\UE4\UE_4.18\Engine\Source\Editor\IntroTutorials;Y:\UE4\UE_4.18\Engine\Source\Runtime\HeadMountedDisplay\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay;Y:\UE4\UE_4.18\Engine\Source\Runtime\HeadMountedDisplay;Y:\UE4\UE_4.18\Engine\Source\Editor\VREditor\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VREditor;Y:\UE4\UE_4.18\Engine\Source\Editor\VREditor;Y:\UE4\UE_4.18\Engine\Source\Runtime\Landscape\Classes;Y:\UE4\UE_4.18\Engine\Source\Runtime\Landscape\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape;Y:\UE4\UE_4.18\Engine\Source\Runtime\Landscape;Y:\UE4\UE_4.18\Engine\Source\Editor\PropertyEditor\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyEditor;Y:\UE4\UE_4.18\Engine\Source\Editor\PropertyEditor;Y:\UE4\UE_4.18\Engine\Source\Editor\ActorPickerMode\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ActorPickerMode;Y:\UE4\UE_4.18\Engine\Source\Editor\ActorPickerMode;Y:\UE4\UE_4.18\Engine\Source\Editor\SceneDepthPickerMode\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SceneDepthPickerMode;Y:\UE4\UE_4.18\Engine\Source\Editor\SceneDepthPickerMode;Y:\UE4\UE_4.18\Engine\Source\Editor\DetailCustomizations\Public;Y:\UE4\UE_4.18\Engine\Source\Editor\DetailCustomizations\Public\Customizations;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DetailCustomizations;Y:\UE4\UE_4.18\Engine\Source\Editor\DetailCustomizations;Y:\UE4\UE_4.18\Engine\Source\Editor\ClassViewer\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClassViewer;Y:\UE4\UE_4.18\Engine\Source\Editor\ClassViewer;Y:\UE4\UE_4.18\Engine\Source\Editor\GraphEditor\Public;Y:\UE4\UE_4.18\Engine\Source\Editor\GraphEditor\Public\KismetNodes;Y:\UE4\UE_4.18\Engine\Source\Editor\GraphEditor\Public\KismetPins;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;Y:\UE4\UE_4.18\Engine\Source\Editor\GraphEditor;Y:\UE4\UE_4.18\Engine\Source\Editor\ContentBrowser\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser;Y:\UE4\UE_4.18\Engine\Source\Editor\ContentBrowser;Y:\UE4\UE_4.18\Engine\Source\Runtime\NetworkFileSystem\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\NetworkFileSystem\Public\Interfaces;Y:\UE4\UE_4.18\Engine\Source\Runtime\CoreUObject\Public\Interfaces;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkFileSystem;Y:\UE4\UE_4.18\Engine\Source\Runtime\NetworkFileSystem;Y:\UE4\UE_4.18\Engine\Source\Runtime\Sockets\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Sockets;Y:\UE4\UE_4.18\Engine\Source\Runtime\Sockets;Y:\UE4\UE_4.18\Engine\Source\Runtime\UMG\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\UMG\Public\Animation;Y:\UE4\UE_4.18\Engine\Source\Runtime\UMG\Public\Binding;Y:\UE4\UE_4.18\Engine\Source\Runtime\UMG\Public\Blueprint;Y:\UE4\UE_4.18\Engine\Source\Runtime\UMG\Public\Components;Y:\UE4\UE_4.18\Engine\Source\Runtime\UMG\Public\Slate;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG;Y:\UE4\UE_4.18\Engine\Source\Runtime\UMG;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieScene\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieScene\Public\Compilation;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieScene\Public\Evaluation;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieScene\Public\Evaluation\Blending;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieScene\Public\Generators;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieScene;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Public;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Public\Evaluation;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Public\Sections;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieSceneTracks\Public\Tracks;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks;Y:\UE4\UE_4.18\Engine\Source\Runtime\MovieSceneTracks;Y:\UE4\UE_4.18\Engine\Source\Runtime\Windows\XAudio2\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;Y:\UE4\UE_4.18\Engine\Source\Runtime\Windows\XAudio2;Y:\UE4\UE_4.18\Engine\Source\Runtime\AudioMixer\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerXAudio2;Y:\UE4\UE_4.18\Engine\Source\Runtime\Windows\AudioMixerXAudio2;Y:\UE4\UE_4.18\Engine\Source\Developer\CollectionManager\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;Y:\UE4\UE_4.18\Engine\Source\Developer\CollectionManager;Y:\UE4\UE_4.18\Engine\Source\Editor\AddContentDialog\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;Y:\UE4\UE_4.18\Engine\Source\Editor\AddContentDialog;Y:\UE4\UE_4.18\Engine\Source\ThirdParty\IntelEmbree\Embree2140\Win64\include;Y:\UE4\UE_4.18\Engine\Source\Developer\MeshUtilities\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshUtilities;Y:\UE4\UE_4.18\Engine\Source\Developer\MeshUtilities;Y:\UE4\UE_4.18\Engine\Source\Developer\MeshMergeUtilities\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshMergeUtilities;Y:\UE4\UE_4.18\Engine\Source\Developer\MeshMergeUtilities;Y:\UE4\UE_4.18\Engine\Source\Developer\HierarchicalLODUtilities\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HierarchicalLODUtilities;Y:\UE4\UE_4.18\Engine\Source\Developer\HierarchicalLODUtilities;Y:\UE4\UE_4.18\Engine\Source\Developer\MeshReductionInterface\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshReductionInterface;Y:\UE4\UE_4.18\Engine\Source\Developer\MeshReductionInterface;Y:\UE4\UE_4.18\Engine\Source\Developer\AssetTools\Public;Y:\UE4\UE_4.18\Engine\Source\Developer\AssetTools\Public\AssetTypeActions;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools;Y:\UE4\UE_4.18\Engine\Source\Developer\AssetTools;Y:\UE4\UE_4.18\Engine\Source\Editor\KismetCompiler\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\KismetCompiler;Y:\UE4\UE_4.18\Engine\Source\Editor\KismetCompiler;Y:\UE4\UE_4.18\Engine\Source\Editor\Kismet\Classes;Y:\UE4\UE_4.18\Engine\Source\Editor\Kismet\Public;Y:\UE4\UE_4.18\Engine\Source\Editor\Kismet\Public\Nodes;Y:\UE4\UE_4.18\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;Y:\UE4\UE_4.18\Engine\Source\Editor\Kismet;Y:\UE4\UE_4.18\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface;Y:\UE4\UE_4.18\Engine\Source\Runtime\ClothingSystemRuntimeInterface;Y:\UE4\UE_4.18\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkReplayStreaming;Y:\UE4\UE_4.18\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming;Y:\UE4\UE_4.18\Engine\Source\Runtime\AudioMixer\Classes;Y:\UE4\UE_4.18\Engine\Source\Runtime\AudioMixer\Public\Components;Y:\UE4\UE_4.18\Engine\Source\Runtime\AudioMixer\Public\DSP;Y:\UE4\UE_4.18\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer;Y:\UE4\UE_4.18\Engine\Source\Runtime\AudioMixer;Y:\VS\VC\Tools\MSVC\14.12.25827\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>
